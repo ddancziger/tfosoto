@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TFosoto</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_loginctivity">Loginctivity</string>
+    <string name="parse_app_id">x6an8Q5avC2s8Dg7U3BBBeRepJJlySxUdZpBuddT</string>
+    <string name="parse_client_key">aZx22DxOU7vXLTiEiMKEZFs7APVyHY65LWaT1G3F</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+</resources>
