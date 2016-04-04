@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
 
     <application
         android:name=".StarterApplication"
@@ -32,7 +33,12 @@
         <activity
             android:name=".SignUpActivity"
             android:label="@string/title_activity_sign_up"
-            android:theme="@style/AppTheme.Dark"></activity>
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".threadsSMSActivity"
+            android:label="@string/title_activity_threads_sms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SMSThreadActivity"></activity>
     </application>
 
 </manifest>
